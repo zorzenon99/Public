@@ -11,3 +11,4 @@ print(a[2:4],a[4])
 sasso="pazzo"
 scrivo="oggi ho raccolto un %s" % sasso
 print(scrivo)
+#ma 
