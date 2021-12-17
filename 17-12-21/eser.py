@@ -52,7 +52,7 @@ for e1 in l:
     for e3 in l3:
       f.append((e1,e2,e3))
 """
-
+"""
 squares = {1:1, 2:4, 3:9, 4:16, 5:25}
 print(squares) 
 print(squares.popitem())
@@ -63,3 +63,28 @@ for i in squares:
 for item in squares: 
   if 16 in squares[item]:
    del squares
+"""
+"""
+i=0
+while i<18:
+  i=i+1
+  if(i>10):
+    break
+  print(i) 
+"""
+"""
+while True:
+  s = input('Enter something : ')
+  print('Length of the string is', len(s))
+  if s == 'quit':
+    break  
+  else:
+    print("Picciotto cambia parola")
+"""
+
+a={1:'kaboom',2:'evviva',3:'islanda',4:'gabbiano'}
+for el in a:
+  print(a[el])
+  if a[el]=='islanda':
+    print(a[el])
+    break
