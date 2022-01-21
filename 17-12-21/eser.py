@@ -88,3 +88,7 @@ for el in a:
   if a[el]=='islanda':
     print(a[el])
     break
+
+for n in range(4):
+  print(n)
+      
